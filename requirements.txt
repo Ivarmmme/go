@@ -1,0 +1,8 @@
+# External dependency managed by Go modules
+github.com/go-telegram-bot-api/telegram-bot-api/v5
+
+# External Python library (example)
+requests==2.26.0
+
+# External binary or tool (example)
+https://github.com/example/tool/releases/download/v1.0.0/tool-linux-amd64
