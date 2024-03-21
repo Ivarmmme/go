@@ -1,2 +1,3 @@
 module github.com/Ivarmmme/go
-go mod tidy
+
+go 1.16
