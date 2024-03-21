@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot-example",
+  "description": "A simple Telegram bot example deployed on Heroku",
+  "repository": "https://github.com/yourusername/your-repo",
+  "keywords": ["telegram", "bot", "heroku", "go"],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Telegram bot token",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "echo 'Bot deployed successfully.'"
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
